@@ -18,7 +18,7 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     
     int count = countElementsWithSmallerNeighbors(arr, size);
-    cout << "Count of elements where both adjacent neighbors are smaller: " << count << endl;
+    cout << "Count of elements where both adjacent neighbors're smaller: " << count << endl;
     
     return 0;
 }
